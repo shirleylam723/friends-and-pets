@@ -2,7 +2,8 @@ import React from "react"
 function Pet(props){
     return (
         <div>
-            <h2>{props.PetName}</h2>        
+            <h4>{props.pet.name}</h4>
+            <p>{props.pet.breed}</p>        
         </div>
     )
 }

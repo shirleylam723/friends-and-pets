@@ -1,4 +1,4 @@
-const friends = [
+const FriendData = [
     {
       name: "Ben",
       age: 29,
@@ -55,3 +55,4 @@ const friends = [
       ]
     }
   ]
+  export default FriendData
